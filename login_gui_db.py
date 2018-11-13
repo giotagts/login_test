@@ -28,7 +28,7 @@ class main():
             self.logf.pack_forget()
             self.head["text"]=self.username.get() + "\n Welcome!"
             self.head["pady"]=150
-            
+
         else:
             ms.showerror("Oops!!","Username not matched! ")
 
@@ -84,6 +84,5 @@ class main():
 
 root=Tk()
 main(root)
-root.geometry("400x350+350+150")
+root.geometry("500x350+350+150")
 root.mainloop()
-
